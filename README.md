@@ -1,6 +1,4 @@
-# Java Swing + REST Service Demo
-
-This is only an old demo project for studying purposes.
+# Java Swing + REST Service Example
 
 ## Prerequisites
 - Maven
@@ -16,13 +14,16 @@ npm install -g json-server
 
 ## How to Run
 
-- Launch json-server:
+Launch json-server:
+
 ```bash
 json-server --watch <path to your database>.json
 ```
-The server will be available on `http://localhost:3000/` (you can open this link in your browser).
 
-- Build & Run the application:
+> The server will be available on `http://localhost:3000/` (you can open this link in your browser).
+
+Build & Run the application:
+
 ```bash
 mvn clean package
 java -jar target/<project-name>.jar
